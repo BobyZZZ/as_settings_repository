@@ -3,6 +3,8 @@
     <option name="newTranslationDialogX" value="540" />
     <option name="newTranslationDialogY" value="-775" />
     <histories>
+      <item value="Hierarchy" />
+      <item value="Generic" />
       <item value="gauge" />
       <item value="Add an {@link ItemDecoration} to this RecyclerView. Item decorations can affect both measurement and drawing of individual item views. &lt;p&gt;Item decorations are ordered. Decorations placed earlier in the list will be runquerieddrawn first for their effects on item views. Padding added to views will be nested; a padding added by an earlier decoration will mean further item decorations in the list will be asked to drawpad within the previous decoration's given area.&lt;p&gt;" />
       <item value="@param dx x distance in pixels. @param dy y distance in pixels. @param interpolator {@link Interpolator} to be used for scrolling. If it is {@code null}, RecyclerView will use an internal default interpolator. @param duration Duration of the animation in milliseconds. Set to {@link UNDEFINED_DURATION} to have the duration be automatically calculated based on an internally defined standard initial velocity. A duration less than 1 (that does not equal UNDEFINED_DURATION), will result in a call to {@link scrollBy(int, int)}. @param withNestedScrolling True to perform the smooth scroll with nested scrolling. If {@code duration} is less than 0 and not equal to {@link UNDEFINED_DURATION}, smooth scrolling will not occur and thus no nested scrolling will occur. Should be considered private. Not private to avoid synthetic accessor." />
@@ -51,13 +53,11 @@
       <item value="Allows IDs of new entities to be assigned manually. Warning: This has side effects, check the online documentation on self-assigned object IDs for details. &lt;p&gt; This may allow re-use of IDs assigned elsewhere, e.g. by a server." />
       <item value="A List representing a to-many relation. It tracks changes (adds and removes) that can be later applied (persisted) to the database. This happens either on {@link Boxput(Object)} of the source entity of this relation or using {@link applyChangesToDb()}. &lt;p&gt; If this relation is a backlink from a {@link ToOne} relation, a DB sync will also update ToOne objects (but not vice versa). &lt;p&gt; ToMany is thread-safe by default (only if the default {@link java.util.concurrent.CopyOnWriteArrayList} is used)." />
       <item value="(but not vice versa)." />
-      <item value="Returns a regular expression that matches the specified [literal] string literally. No characters of that string will have special meaning when searching for an occurrence of the regular expression." />
-      <item value="Returns a regular expression pattern string that matches the specified [literal] string literally. No characters of that string will have special meaning when searching for an occurrence of the regular expression." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="100" />
-        <entry key="ENGLISH" value="101" />
+        <entry key="CHINESE" value="102" />
+        <entry key="ENGLISH" value="103" />
         <entry key="SOMALI" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
