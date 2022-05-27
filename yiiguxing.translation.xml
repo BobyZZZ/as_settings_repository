@@ -3,6 +3,8 @@
     <option name="newTranslationDialogX" value="540" />
     <option name="newTranslationDialogY" value="-775" />
     <histories>
+      <item value="inverted" />
+      <item value="Granularity" />
       <item value="Hierarchy" />
       <item value="Generic" />
       <item value="gauge" />
@@ -51,13 +53,11 @@
       <item value="Applies (persists) tracked changes (added and removed entities) to the target box andor updates standalone relations. Note that this is done automatically when you put the source entity of this to-many relation. However, if only this to-many relation has changed, it is more efficient to call this method. @throws IllegalStateException If the source entity of this to-many relation was not previously persisted" />
       <item value="Annotation for entities ObjectBox only persist objects of classes which are marked with this annotation" />
       <item value="Allows IDs of new entities to be assigned manually. Warning: This has side effects, check the online documentation on self-assigned object IDs for details. &lt;p&gt; This may allow re-use of IDs assigned elsewhere, e.g. by a server." />
-      <item value="A List representing a to-many relation. It tracks changes (adds and removes) that can be later applied (persisted) to the database. This happens either on {@link Boxput(Object)} of the source entity of this relation or using {@link applyChangesToDb()}. &lt;p&gt; If this relation is a backlink from a {@link ToOne} relation, a DB sync will also update ToOne objects (but not vice versa). &lt;p&gt; ToMany is thread-safe by default (only if the default {@link java.util.concurrent.CopyOnWriteArrayList} is used)." />
-      <item value="(but not vice versa)." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="102" />
-        <entry key="ENGLISH" value="103" />
+        <entry key="CHINESE" value="104" />
+        <entry key="ENGLISH" value="105" />
         <entry key="SOMALI" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
