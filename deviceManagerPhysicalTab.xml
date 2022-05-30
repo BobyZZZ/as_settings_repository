@@ -1,0 +1,17 @@
+<application>
+  <component name="deviceManagerPhysicalTab">
+    <physicalDevices>
+      <PhysicalDevice>
+        <key>
+          <Key>
+            <type value="SERIAL_NUMBER" />
+            <value value="DEQG7HAMEQPZWKQ4" />
+          </Key>
+        </key>
+        <name value="Xiaomi 21091116AC" />
+        <target value="Android 11.0" />
+        <api value="30" />
+      </PhysicalDevice>
+    </physicalDevices>
+  </component>
+</application>
