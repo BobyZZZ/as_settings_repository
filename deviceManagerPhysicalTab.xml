@@ -23,6 +23,17 @@
         <target value="Android 11.0" />
         <api value="30" />
       </PhysicalDevice>
+      <PhysicalDevice>
+        <key>
+          <Key>
+            <type value="SERIAL_NUMBER" />
+            <value value="192.168.144.114:37089" />
+          </Key>
+        </key>
+        <name value="Xiaomi M2007J17C" />
+        <target value="Android 11.0" />
+        <api value="30" />
+      </PhysicalDevice>
     </physicalDevices>
   </component>
 </application>
