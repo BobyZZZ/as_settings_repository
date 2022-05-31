@@ -3,6 +3,7 @@
     <option name="newTranslationDialogX" value="540" />
     <option name="newTranslationDialogY" value="-775" />
     <histories>
+      <item value="does not operate by default on a particular" />
       <item value="inverted" />
       <item value="Granularity" />
       <item value="Hierarchy" />
@@ -52,19 +53,18 @@
       <item value="Set's the [LiveData]'s value to the given [value]. If you've called [emitSource] previously, calling [emit] will remove that source. Note that this function suspends until the value is set on the [LiveData]. @param value The new value for the [LiveData] @see emitSource" />
       <item value="Applies (persists) tracked changes (added and removed entities) to the target box andor updates standalone relations. Note that this is done automatically when you put the source entity of this to-many relation. However, if only this to-many relation has changed, it is more efficient to call this method. @throws IllegalStateException If the source entity of this to-many relation was not previously persisted" />
       <item value="Annotation for entities ObjectBox only persist objects of classes which are marked with this annotation" />
-      <item value="Allows IDs of new entities to be assigned manually. Warning: This has side effects, check the online documentation on self-assigned object IDs for details. &lt;p&gt; This may allow re-use of IDs assigned elsewhere, e.g. by a server." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="104" />
-        <entry key="ENGLISH" value="105" />
+        <entry key="CHINESE" value="105" />
+        <entry key="ENGLISH" value="106" />
         <entry key="SOMALI" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1653474663295" />
+    <option name="lastTrimTime" value="1653970100896" />
   </component>
   <component name="Settings">
     <option name="phoneticFontFamily" value=".SFNS-Regular" />
